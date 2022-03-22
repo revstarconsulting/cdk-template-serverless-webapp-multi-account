@@ -168,10 +168,6 @@ export class Cognito extends Construct {
 
     this.userPoolId = this.userPool.userPoolId;
     this.identityPoolId = identityPool.ref;
-
-    // new CfnOutput(this, 'sunjane-congito-user-pool-id', { exportName: 'sunjane-congito-user-pool-id', value: this.userPool.userPoolId });
-    // new CfnOutput(this, 'sunjane-cognito-identity-pool-id', { exportName: 'sunjane-cognito-identity-pool-id', value: identityPool.ref });
-    // new CfnOutput(this, 'sunjane-webapp-client-id', { exportName: 'sunjane-webapp-client-id', value: this.webAppClient.userPoolClientId });
   }
 
 }

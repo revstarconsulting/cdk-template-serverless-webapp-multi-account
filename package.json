@@ -2,7 +2,7 @@
   "name": "cdk-simple-webapp-multi-account",
   "version": "0.1.0",
   "bin": {
-    "sunjane-core-infra-pipeline": "bin/core-infra-pipeline.js"
+    "cdk-template-webapp-multi-account": "bin/core-infra-pipeline.js"
   },
   "scripts": {
     "build": "tsc",
