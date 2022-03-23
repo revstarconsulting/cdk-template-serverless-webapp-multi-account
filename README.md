@@ -80,7 +80,7 @@ Bootstrap the Dev account:
     --profile dev-account \
     --cloudformation-execution-policies 'arn:aws:iam::aws:policy/AdministratorAccess' \
     --trust <main-account-id> \
-    aws://287629227578/us-east-1
+    aws://<dev-account-id>/us-east-1
 ```
 
 Bootstrap the Test account:
