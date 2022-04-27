@@ -1,6 +1,6 @@
 ![RevStar Consulting](img/revstar-cdk.png?raw=true 'RevStar Consulting Logo')
 
-# RevStar CDK Pipeline for Simple Web Applications that need to be deployed across multiple AWS accounts
+# RevStar CDK Pipeline for Serverless Web Applications that need to be deployed across multiple AWS accounts
 
 This is a CDK Typescript project that bootstraps and maintains a multi-account architecture for the core infrastructure components (S3 buckets, databases, Kubernetes VPC constructs, ALB definitions, etc) that are then used by downstream application components. This repo also defines pipelines that will deploy those applications across the multiple AWS accounts, and on top of the core infrastructure components defined in this project.
 
